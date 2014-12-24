@@ -274,24 +274,20 @@ button, input[type='submit'] {
   text-decoration: underline;
 }
 
-.screenshot-padded-wrapper {
-  padding-top: 1em;
-}
-
 .screenshot-wrapper {
   margin: 0 auto 2em;
+  padding-top: 1em;
   width: 50%;
 }
 
 .screenshot {
   width: 50vw;
 }
-.screenshot-with-border {
-  border: 1px solid #EEE;
-}
 
-.screenshot-with-padding {
+.secondary-screenshot {
+  border: 1px solid #EEE;
   padding: 0.5em;
+  width: 50vw;
 }
 
 .social-icon {
@@ -361,6 +357,10 @@ button, input[type='submit'] {
     width: 90%!important;
   }
 
+  .hero-wrapper {
+    padding: 0 0.5em 1em;
+  }
+
   .mybema-benefits-header {
     font-size: 1.5em;
     margin: 0 auto 0.75em;
@@ -385,6 +385,15 @@ button, input[type='submit'] {
   .paragraph {
     font-size: 1em;
     width: 90%;
+  }
+
+  .screenshot-wrapper {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .secondary-screenshot {
+    width: 90vw;
   }
 
   .subheader {
