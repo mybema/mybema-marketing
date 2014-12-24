@@ -284,7 +284,7 @@ button, input[type='submit'] {
   width: 50vw;
 }
 
-.secondary-screenshot {
+.screenshot-wrapper > img {
   border: 1px solid #EEE;
   padding: 0.5em;
   width: 50vw;
@@ -392,7 +392,7 @@ button, input[type='submit'] {
     width: 90%;
   }
 
-  .secondary-screenshot {
+  .screenshot-wrapper > img {
     width: 90vw;
   }
 
