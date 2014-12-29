@@ -1,0 +1,35 @@
+.benefit-wrap {
+  margin-bottom: 3em;
+  width: 100%;
+}
+
+.benefits-row {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 30%;
+  width: 30%;
+}
+
+.benefits-section {
+  width: 90%;
+}
+
+.hero-container {
+  margin: 2em auto;
+}
+
+.hero-cta-wrapper {
+  margin-top: 2em;
+}
+
+.hero-screenshot, .screenshot-wrapper > img {
+  width: 60%;
+}
+
+.hero-wrapper, .benefits-wrapper {
+  padding-bottom: 2em;
+}
+
+.mybema-title {
+  padding-top: 0.5em;
+}
