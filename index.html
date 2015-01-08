@@ -40,11 +40,11 @@
 <body>
   <div class="hero-wrapper">
     <h1 class='mybema-title'>
-      Want to start a community?
+      Want to grow your community?
     </h1>
 
     <h2 class='subheader'>
-      Mybema is a free and simple platform for building amazing online communities.
+      Try Mybema. A beautiful, free platform for building amazing online communities.
     </h2>
 
     <div class="hero-container">
@@ -55,7 +55,7 @@
 
     <div class='hero-list'>
       <p>
-        Mybema is a community platform that cares about accessibility, user experience, and quality content. It allows you to grow a community using software that you control. Even if you're just curious, you can launch and engage with your community in under 30 minutes.
+        Mybema is software designed to help you grow an amazing community. It's made with accessibility, user experience, and quality content in mind. Be in control of your own community without worrying about 3rd party algorithm changes. Curious? You can launch a community in under 30 minutes.
       </p>
     </div>
 
@@ -75,13 +75,13 @@
   </div>
 
   <div class='benefits-wrapper'>
-    <h1 class='benefits-header'>
+    <h1 class='mybema-benefits-header'>
       Build an online community
     </h1>
 
-    <h2 class='subheader cut-short'>
+    <div class='section-descriptor'>
       There are hundreds of great reasons why managing an online community is beneficial. Here's 6 that may get you to start considering one.
-    </h2>
+    </div>
 
     <div class='benefits-section'>
       <div class='benefits-row'>
@@ -104,11 +104,11 @@
 
           <div>
             <h3>
-              Increase sales
+              Increase LTV
             </h3>
 
             <p>
-              Community participation has been proven to be a factor of loyalty and loyal customers are more valuable than once-off customers. By getting your customers to engage in your community, you are increasing their lifetime value.
+              Community participation has been proven to be a factor of loyalty and loyal customers are more valuable than once-off customers. By getting your customers to engage in your community, you are increasing their LTV.
             </p>
           </div>
         </div>
@@ -134,11 +134,11 @@
 
           <div>
             <h3>
-              Better profiling
+              Increase retention
             </h3>
 
             <p>
-              A rich source of qualitative data will allow you to understand your network better. A better understanding of your audience will help you optimize your marketing messaging.
+              Keep the same customers around for longer. People that participate in branded communities are less likely to churn.
             </p>
           </div>
         </div>
@@ -187,9 +187,9 @@
       Why you should use Mybema for your community
     </h1>
 
-    <h2 class='subheader cut-short'>
-      Regardless of whether your desired community is associated via a product, your brand, a sports team, or your neighbourhood, Mybema offers the following benefits.
-    </h2>
+    <div class='section-descriptor'>
+      Whether your community exists because of your products, your brand, a sports team, or your interest group, Mybema offers the following benefits.
+    </div>
 
     <br />
 
@@ -261,20 +261,20 @@
       Getting started
     </h1>
 
+    <div class='section-descriptor'>
+      Setting up Mybema is a slightly technical affair. If you aren't a developer then you can safely skip to the next section.
+    </div>
+
     <p class='paragraph'>
-      Setting up Mybema is currently a technical affair; if you aren't a developer then you can safely skip to the last paragraph. In order to setup an instance of Mybema, you should have access to a Linux or OSX computer. You should also be familiar with the command line and may need some experience with managing a VPS.
+      You can download the code to run Mybema on your own website. It's free and open source. But you need to be familiar with the command line and should have some experience with managing a VPS. You should also have access to a Linux or OSX computer as Windows is not supported.
     </p>
 
     <p class='paragraph'>
-      Mybema is developed using Ruby on Rails and is under git version control. You can download the codebase by cloning the repository. The project has a few dependencies like Redis and Elasticsearch, and uses PostgreSQL as a data store. At the moment, you'll also need to have an Amazon S3 account for asset storage.
+      Mybema is developed using Ruby on Rails and is under git version control. You can download the codebase by cloning the repository. The project has a few software dependencies like Redis and Elasticsearch and uses PostgreSQL as a data store.
     </p>
 
     <p class='paragraph'>
-      We've created a <a href='https://github.com/mybema/mybema-config'>configuration repository</a> that uses <a href='http://www.ansible.com'>Ansible</a> to provision a 2gb <a href='http://www.digitalocean.com'>DigitalOcean</a> droplet with Mybema installed and running. All you have to do is clone this repository instead of the Mybema one, add your SSH key, DigitalOcean API token, S3 key, and run a single rake task. It could hardly get easier than that!
-    </p>
-
-    <p class='paragraph'>
-      Although Mybema is free and open-source, setting it up requires a small amount of time and effort. Not a lot, but as you may have heard, <a href="http://en.wikipedia.org/wiki/There_ain%27t_no_such_thing_as_a_free_lunch">there's no such thing as a free lunch</a>. Depending on the demand, we may consider hosting communities for a small, reasonable fee. If you'd be interested, let us know. Our contact details are in the footer.
+      We've created a <a href='https://github.com/mybema/mybema-config'>configuration repository</a> that uses <a href='http://www.ansible.com'>Ansible</a> to provision a 2gb <a href='http://www.digitalocean.com'>DigitalOcean</a> droplet with Mybema installed and running. All you have to do is clone this repository instead of the Mybema one, run bundle and edit 3 files, then boot Mybema up with a single rake task. It could hardly get easier than that!
     </p>
 
     <div class='hero-cta-wrapper'>
@@ -287,6 +287,26 @@
       <a href="http://community.mybema.com">
         <button class='hero-cta' id='try-mybema-bottom'>
           TRY MYBEMA
+        </button>
+      </a>
+    </div>
+
+    <div class='money-making-wrapper'>
+      <h1 class='mybema-benefits-header'>
+        Hosted service
+      </h1>
+
+      <div class='section-descriptor'>
+        If you're not a developer or don't want to stress over self-hosting, we're here to help. We can host Mybema for you.
+      </div>
+
+      <p class='paragraph'>
+        We understand that not everyone can or wants to set things up themselves. We also get that hosting may be stressful and the process of updating software and security may be both tedious and daunting. If you want all the benefits of a community without the hassle of managing your own platform, check out our pricing guide.
+      </p>
+
+      <a href="pricing.html">
+        <button class='money-cta' id='try-mybema-bottom'>
+          SEE PRICING
         </button>
       </a>
     </div>
