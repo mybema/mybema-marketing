@@ -191,11 +191,11 @@ strong {
 
 .hero-list {
   margin: 0 auto;
-  width: 70%;
+  width: 60%;
 }
 
 .hero-list p {
-  color: #EFEFEF;
+  color: #212121;
   font-weight: 300;
   font-size: 1.2em;
   margin-bottom: 0.5em;
@@ -208,7 +208,7 @@ strong {
 }
 
 .hero-wrapper {
-  background-color: #8BB750;
+  background-color: #BED2A3;
   display: block;
   min-height: 100vh;
   padding: 0 0.5em;
